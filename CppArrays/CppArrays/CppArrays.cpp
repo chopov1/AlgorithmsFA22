@@ -5,7 +5,7 @@
 #include <iostream>
 
 
-//this has O(n) or linear runtime
+//this has O(n) or linear runtime. The runtime grows with the size of the array
 void sort(int* arry, int size) {
 
     int current;
@@ -36,7 +36,7 @@ void printArray(int* ptr, int size) {
     }
 }
 
-//this has O(n^2) or quadratic runtime
+//this has O(n^2) or quadratic runtime this runtime is squared depending on the int passed in, as it is run on a nested for loop.
 void printBanana(int timesToPrint) {
     for (int i = 0; i < timesToPrint; i++) {
         std::cout << "Banana";
@@ -66,7 +66,7 @@ int main()
     printArray(&array[0], 5);
 
     printBanana(array[4]);
-    //Log function has O(1) or constant runtime
+    //Log function has O(1) or constant runtime, as it only ever does one thing no matter what is passed in.
     Log("gary is here");
     std::cout << "Hello World!\n";
 }
