@@ -1,3 +1,3 @@
 # AlgorithmsFA22
-code for school
-My name is Mack Pearson-Muggli
+
+My name is Mack Pearson-Muggli and this repo contains code for my Algorithms class at columbia college
