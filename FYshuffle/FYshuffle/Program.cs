@@ -9,7 +9,7 @@ namespace FYshuffle
         static void Main(string[] args)
         {
             string[] strings = { "boo", "poo", "doo", "foo", "woo" };
-            ShufflerClass.doYatesShuffle(strings);
+            ShufflerClass.doYatesSecondShuffle(strings);
             foreach(string s in strings)
             {
                 Console.WriteLine(s);

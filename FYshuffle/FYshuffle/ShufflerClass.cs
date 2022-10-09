@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace FYshuffle
 {
@@ -10,16 +11,28 @@ namespace FYshuffle
     {
         static Random rnd = new Random();
 
-        
         public static void doYatesShuffle(this object[] objects)
         {
             for(int i = objects.Length - 1; i > 0; i--)
             {
                 int j = rnd.Next(i + 1);
-                swap(objects, i, j);
+                objects.swap(i, j);
             }
         }
 
+        public static void doYatesSecondShuffle(this object[] objects)
+        {
+            for (int i =0; i < objects.Length - 2; i++)
+            {
+                int j = getRndNum((objects.Length- i)-1);
+                objects.swap(i, i+j);
+            }
+        }
+
+        private static int getRndNum(int i)
+        {
+            return rnd.Next(i+1);
+        }
         //could create object temp as a class variable or even
         //inside yatesshuffle method so that we are not making abunch of
         //work for the GC by having i objects created for temp everytime
