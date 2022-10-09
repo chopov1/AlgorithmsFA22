@@ -11,22 +11,24 @@ namespace FYshuffle
     {
         static Random rnd = new Random();
 
-        public static void doYatesShuffle(this object[] objects)
+        public static object[] doYatesShuffle(this object[] objects)
         {
             for(int i = objects.Length - 1; i > 0; i--)
             {
                 int j = rnd.Next(i + 1);
                 objects.swap(i, j);
             }
+            return objects;
         }
 
-        public static void doYatesSecondShuffle(this object[] objects)
+        public static object[] doYatesSecondShuffle(this object[] objects)
         {
             for (int i =0; i < objects.Length - 2; i++)
             {
-                int j = getRndNum((objects.Length- i)-1);
+                int j = getRndNum((objects.Length- i)-1); 
                 objects.swap(i, i+j);
             }
+            return objects;
         }
 
         private static int getRndNum(int i)

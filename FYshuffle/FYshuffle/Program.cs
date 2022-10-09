@@ -1,5 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices.ObjectiveC;
+using System.IO;
 
 namespace FYshuffle
 {
@@ -8,8 +9,8 @@ namespace FYshuffle
         
         static void Main(string[] args)
         {
-            string[] strings = { "boo", "poo", "doo", "foo", "woo" };
-            ShufflerClass.doYatesSecondShuffle(strings);
+            List<string> fileData = File.ReadAllLines(@"..\..\..\TextFile.txt").ToList();
+            string[] strings = (string[])ShufflerClass.doYatesShuffle(fileData.ToArray());
             foreach(string s in strings)
             {
                 Console.WriteLine(s);
