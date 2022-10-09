@@ -13,11 +13,16 @@ namespace FYshuffle
 
         public static object[] doYatesShuffle(this object[] objects)
         {
+            //we will loop through each index of the array starting at the last index minus 1
             for(int i = objects.Length - 1; i > 0; i--)
             {
+                //we get a random number between the 1st index of arry and the ith index
                 int j = rnd.Next(i + 1);
+                //we then swap those numbers and repeat, this way the sequence will b different from the original
+                //we make sure to create a temp object to store the obj at index i before we set i =j. then we set j = to temp.
                 objects.swap(i, j);
             }
+            //return the newly shuffled array
             return objects;
         }
 
