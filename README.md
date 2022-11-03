@@ -12,4 +12,4 @@ I created an application to demonstarte my knowledge of data structures. In the 
 
 ### Big O notation
 
-This is a simple program in c++ with a few examples of functions containing differnet run times.
+This is a simple program in c++ containing a few functions all with different run times.
