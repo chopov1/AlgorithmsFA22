@@ -1,1 +1,5 @@
-﻿
+﻿  CppArrays.cpp
+  Log.cpp
+  Generating Code...
+D:\SCHOOL\Fall 2022\Algorithms\AlgorithmsFA22Repo\AlgorithmsFA22\CppArrays\CppArrays\CppArrays.cpp(30): warning C4715: 'isSorted': not all control paths return a value
+  CppArrays.vcxproj -> D:\SCHOOL\Fall 2022\Algorithms\AlgorithmsFA22Repo\AlgorithmsFA22\CppArrays\x64\Debug\CppArrays.exe
