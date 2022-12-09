@@ -4,7 +4,7 @@
 ___
 
 ### Sorting Algorithms
-Implementation and description of 6 different sorting algorithms in c#
+Implementation and description of 6 different sorting algorithms in C#.
 
 ### Fisher Yates Shuffle
 The project FYshuffle demonstrates my understanding of the fisher yates shuffle. An algorithm used to shuffle values of an array by swapping indexes. It reads text data from the file "TextFile.txt" puts it into an array and shuffles it.
