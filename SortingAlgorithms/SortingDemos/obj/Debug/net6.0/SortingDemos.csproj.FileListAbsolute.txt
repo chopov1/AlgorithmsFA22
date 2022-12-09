@@ -1,0 +1,15 @@
+D:\SCHOOL\Fall 2022\Algorithms\SortingDemos\SortingDemos\bin\Debug\net6.0\SortingDemos.exe
+D:\SCHOOL\Fall 2022\Algorithms\SortingDemos\SortingDemos\bin\Debug\net6.0\SortingDemos.deps.json
+D:\SCHOOL\Fall 2022\Algorithms\SortingDemos\SortingDemos\bin\Debug\net6.0\SortingDemos.runtimeconfig.json
+D:\SCHOOL\Fall 2022\Algorithms\SortingDemos\SortingDemos\bin\Debug\net6.0\SortingDemos.dll
+D:\SCHOOL\Fall 2022\Algorithms\SortingDemos\SortingDemos\bin\Debug\net6.0\SortingDemos.pdb
+D:\SCHOOL\Fall 2022\Algorithms\SortingDemos\SortingDemos\obj\Debug\net6.0\SortingDemos.csproj.AssemblyReference.cache
+D:\SCHOOL\Fall 2022\Algorithms\SortingDemos\SortingDemos\obj\Debug\net6.0\SortingDemos.GeneratedMSBuildEditorConfig.editorconfig
+D:\SCHOOL\Fall 2022\Algorithms\SortingDemos\SortingDemos\obj\Debug\net6.0\SortingDemos.AssemblyInfoInputs.cache
+D:\SCHOOL\Fall 2022\Algorithms\SortingDemos\SortingDemos\obj\Debug\net6.0\SortingDemos.AssemblyInfo.cs
+D:\SCHOOL\Fall 2022\Algorithms\SortingDemos\SortingDemos\obj\Debug\net6.0\SortingDemos.csproj.CoreCompileInputs.cache
+D:\SCHOOL\Fall 2022\Algorithms\SortingDemos\SortingDemos\obj\Debug\net6.0\SortingDemos.dll
+D:\SCHOOL\Fall 2022\Algorithms\SortingDemos\SortingDemos\obj\Debug\net6.0\refint\SortingDemos.dll
+D:\SCHOOL\Fall 2022\Algorithms\SortingDemos\SortingDemos\obj\Debug\net6.0\SortingDemos.pdb
+D:\SCHOOL\Fall 2022\Algorithms\SortingDemos\SortingDemos\obj\Debug\net6.0\SortingDemos.genruntimeconfig.cache
+D:\SCHOOL\Fall 2022\Algorithms\SortingDemos\SortingDemos\obj\Debug\net6.0\ref\SortingDemos.dll
