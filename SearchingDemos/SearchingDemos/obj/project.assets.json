@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SCHOOL\\Fall 2022\\Algorithms\\AlgorithmsFA22Repo\\AlgorithmsFA22\\SortingAlgorithms\\SortingDemos\\SortingDemos.csproj",
-      "projectName": "SortingDemos",
-      "projectPath": "D:\\SCHOOL\\Fall 2022\\Algorithms\\AlgorithmsFA22Repo\\AlgorithmsFA22\\SortingAlgorithms\\SortingDemos\\SortingDemos.csproj",
+      "projectUniqueName": "D:\\SCHOOL\\Fall 2022\\Algorithms\\SearchingDemos\\SearchingDemos\\SearchingDemos.csproj",
+      "projectName": "SearchingDemos",
+      "projectPath": "D:\\SCHOOL\\Fall 2022\\Algorithms\\SearchingDemos\\SearchingDemos\\SearchingDemos.csproj",
       "packagesPath": "C:\\Users\\mpear\\.nuget\\packages\\",
-      "outputPath": "D:\\SCHOOL\\Fall 2022\\Algorithms\\AlgorithmsFA22Repo\\AlgorithmsFA22\\SortingAlgorithms\\SortingDemos\\obj\\",
+      "outputPath": "D:\\SCHOOL\\Fall 2022\\Algorithms\\SearchingDemos\\SearchingDemos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
