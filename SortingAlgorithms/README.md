@@ -103,6 +103,8 @@ C# Implementation
             }
 ```
 
+
+
 ## **Quick Sort**
 >Uses recursion to divide a data set in half to create two smaller sets. With each recursion sort the smaller sets by comparing them to a "pivot" element and placing smaller elements on one side of the pivot and larger on the other. Can be optimized by different methods of choosing a pivot element.
 
@@ -220,3 +222,11 @@ C# Implementation
 
         }
 ```
+
+## **Heap Sort**
+>Heap sort uses a heap data structure and rebuilds the heap each time an element is popped from the root node. This ensures that to access the largest or smallest element depedning on the type of heap is always O(1) time.
+
+Runtimes
+* Worst case: _O(log n)_
+
+* Average case: _O(log n)_
