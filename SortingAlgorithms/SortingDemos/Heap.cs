@@ -30,6 +30,8 @@ namespace SortingDemos
         public Heap(int[] data)
         {
             nodes = createHeap(data);
+            /*PrintHeap();
+            Console.ReadKey();*/
         }
 
         private List<Node> createHeap(int[] data)
@@ -39,7 +41,8 @@ namespace SortingDemos
             Count = 1;
             for(int i = 1; i < data.Length-1; i++)
             {
-                addNode(new Node(data[i], Count), heap);
+                Count++;
+                addNode(new Node(data[i], i), heap);
             }
             return heap;
         }
@@ -89,7 +92,7 @@ namespace SortingDemos
             {
                 largest = left;
             }
-            if(right < list.Count && list[right].value > list[index].value)
+            if(right < list.Count && list[right].value > list[index].value && list[right].value > list[left].value)
             {
                 largest = right;
             }

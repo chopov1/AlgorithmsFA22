@@ -10,8 +10,8 @@
             algorithmManager.InsertionSort(fileReader.getData());
             algorithmManager.SelectionSort(fileReader.getData());
             algorithmManager.HeapSort(fileReader.getData());
-            algorithmManager.QuickSort(fileReader.getData());
-            algorithmManager.MergeSort(fileReader.getData());
+            /*algorithmManager.QuickSort(fileReader.getData());
+            algorithmManager.MergeSort(fileReader.getData());*/
             Console.ReadKey();
         }
     }
