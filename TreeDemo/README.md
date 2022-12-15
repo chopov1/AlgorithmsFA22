@@ -1,0 +1,2 @@
+# Tree Node Structure
+>This project contains a max heap built out of Nodes. The heap sorts itself as each tie an element is added or removed the tree is rearranged. I load data from a textfile and put it into a heap. I then print out the heap to the console by popping the value at the root node.
